@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css-7</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: black;
+            color:white;
+            padding: 10px 0px;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        /* nav ul{
+            float: left;
+        } */
+      .nav li {
+        display: inline;
+        margin: 0px 5px;
+        font-weight: 600;
+      }
+      nav ul li a{
+        text-decoration: none;
+        color: white;
+      }
+
+
+      .hero{
+        background-image: url('./assets/banner.jpg');
+        background-color: rgb(234, 224, 224);
+        height: 400px;
+        /* width: 40px; */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: multiply;
+        
+      }
+.hero-content{
+    text-align: center;
+    padding-top: 25%;
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    
+}
+.testimonial{
+    background-color: white;
+    border: 5px solid violet;
+    border-radius: 10px;
+    padding: 30px 20px;
+    box-shadow: 5px 5px 20px rgb(165, 213, 165);
+    display: flex;
+
+    justify-content: space-between;
+    width: 300px;
+    margin: 0px 10px;
+
+   
+}
+.main-testi{
+ display: flex;
+ margin-bottom: 40px;
+}
+    </style>
+  </head>
+  <body>
+    <!-- header start -->
+    <header >
+      <nav>
+        <h2>Website</h2>
+        <ul class="nav">
+           
+          <li>
+            <a href="#">Home </a> |
+          </li>
+          <li>
+            <a href="#">About </a>
+          </li>
+          <li>
+            <a href="#">Contact </a>
+          </li>
+          <li>
+            <a href="#">Services </a>
+          </li>
+          <li>
+            <a href="#">Features </a>
+          </li>
+         
+        </ul>
+      </nav>
+    </header>
+    <div class="hero">
+          <div class="hero-content">
+            <h2>Primary - Model for real business</h2>
+          </div> 
+    </div>
+    <!-- header end -->
+    <main>
+       <section>
+        <div style="text-align: center; margin: 30px;">
+            <h2>Testimonials
+            </h2>
+            <h4 style="padding: 10px 0px;">Happy Costumers</h4> 
+        </div>
+
+
+           <div class="main-testi">
+
+            <div class="testimonial">
+                <h2>My clients</h2>   
+                <div>
+                 <h3>John Doe - Google Inc.</h3>
+                 <p>General enquire picture letters garrets on offices. Style begin mr heard in music tried. To unreserve projection introduced invitation travel</p>
+                </div>  
+             </div>
+             <div class="testimonial">
+                <h2>My clients</h2>   
+                <div>
+                 <h3>John Doe - Google Inc.</h3>
+                 <p>General enquire picture letters garrets on offices. Style begin mr heard in music tried. To unreserve projection introduced invitation travel</p>
+                </div>  
+             </div>
+             <div class="testimonial">
+                <h2>My clients</h2>   
+                <div>
+                 <h3>John Doe - Google Inc.</h3>
+                 <p>General enquire picture letters garrets on offices. Style begin mr heard in music tried. To unreserve projection introduced invitation travel</p>
+                </div>  
+             </div>
+
+           </div>
+
+
+       </section>
+
+    </main>
+    <footer style="background-color: black;color: white; padding: 10px 0px; text-align: center;">
+        <p>Copyrights @2024</p>
+    </footer>
+  </body>
+</html>
