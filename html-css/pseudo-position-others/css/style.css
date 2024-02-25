@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(221, 227, 227);
+    font-family: "Roboto", sans-serif;
+}
+.gradient{
+   /* background: repeating-linear-gradient(to top right, green 20%, blue 60%, red 10%, yellow 70%); */
+   background: linear-radial(red, yellow, blue);
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+
+}
+.img-div{
+    margin: 50px;
+    background-image: url('https://i.ibb.co/93F7wsP/chiken3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    border: 1px solid black;
+    width: 300px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+h2{
+    opacity: 0;
+}
+.img-div:hover h2{
+    opacity: 1;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    transition: 1s;
+}
+img{
+    margin: 50px;
+    filter: blur(1px) contrast(200%) brightness(30%);
+
+}
+.article{
+    width: 200px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 45px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px red
+    
+}
+.article h2{
+    opacity: 0.5;
+}
+.div1{
+    margin:20px;
+    border:2px solid green;
+    height: 400px;
+    /* width: 300px; */
+    overflow: auto;
+    /* overflow-y: scroll; */
+
+}
+.div1 h2{
+    padding: 10px;
+    text-shadow: 10px 10px 3px green;
+    writing-mode:sideways-lr;
+    cursor:text;
+    font-size: 20px;
+    border: 2px solid black;
+    width: 200px;
+    margin: 10px;
+
+}
+ .div1 {
+    text-align: justify;
+    text-indent: 100px;
+    padding-top: 20px;
+    /* text-align-last: right; */
+    /* text-decoration: overline; */
+    /* word-spacing:2px;
+    letter-spacing: 1px;
+    line-height: 2; */
+    /* word-wrap: break-word;
+    white-space:  pre-wrap; */  
+ }
+ .div1 a{
+    cursor:not-allowed ;
+ }
